@@ -1,18 +1,4 @@
-class Family {
-    public static void main(String[] args) {
-        Child child = new Child();
-        child.display();
-        child.printValue();
-    }
-}
-
-class Parent {
-    int value = 10;
-
-    void display() {
-        System.out.println("Parent display");
-    }
-}
+package Family;
 
 class Child extends Parent {
     int value = 20; // 부모의 value와 동일한 이름
